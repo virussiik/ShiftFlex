@@ -1,0 +1,41 @@
+{
+  "name": "shiftflex",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.16.0",
+    "motion": "^12.4.3",
+    "postcss": "^8.4.49",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.2.0",
+    "tailwind-merge": "^3.0.1",
+    "tailwindcss": "^3.4.17",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@rolldown/binding-win32-x64-msvc": "^1.2.19",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "jsdom": "^26.0.0",
+    "oxlint": "^1.90.0",
+    "typescript": "~7.0.2",
+    "vite": "^8.3.6",
+    "vitest": "^3.0.7"
+  }
+}
